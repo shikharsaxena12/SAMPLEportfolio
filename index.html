@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shikhar swaroop saxena portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <head>
+    
+    </head>
+    
+</head>
+
+<body>
+    <!------===========--header--===========----->
+    <header class="header">
+        <!---------===========---logo---================---------->
+        <h4 class="logo">PORT<span>FOLIO</span></h4>
+        <!----------=============---navbar--============--------->
+        <nav class="navbar">
+            <a href="#" style="--i:1" class="active">HOME</a>
+            <a href="#" style="--i:2">ABOUT</a>
+            <a href="#" style="--i:3">SERVICES</a>
+            <a href="#" style="--i:4">SKILLS</a>
+            <a href="#" style="--i:5">FEEDBACK</a>
+            <a href="#" style="--i:6">CONTACT</a>
+        </nav>
+    </header>
+    <!--------=================---Home section--==============------------------>
+    <section class="home">
+        <div class="home-content">
+            <h3><span>HELLO!</span>It's Me</h3>
+            <h1>Khushi</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                <br> Temporibus, voluptatem ex fugit consequatur
+                <br> in velit repellat vitae atque placeat vero cupiditate
+                <br>incidunt tenetur ab et odio soluta
+                <br>voluptate doloremque en.
+            </p>
+            <!-------========social meadia icons--==========----->
+            <div class="home-sci">
+                <a href="https://www.facebook.com/" style="--i:7"><i
+                        class='bx bxl-facebook bx-tada bx-flip-horizontal'></i></a>
+                <a href="https://www.instagram.com/" style="--i:8"><i
+                        class='bx bxl-instagram bx-tada bx-flip-horizontal'></i></a>
+                <a href="https://in.linkedin.com/" style="--i:9"><i
+                        class='bx bxl-linkedin bx-tada bx-flip-horizontal'></i></a>
+                <a href="https://web.telegram.org/a/" style="--i:10"><i
+                        class='bx bxl-telegram bx-tada bx-flip-horizontal'></i></a>
+            </div>
+            <!--============resume button=============-->
+            <a href="imaages/WhatsApp Image 2024-06-27 at 01.13.25_462a1e5c.jpg" class="btn-box">
+                <h4>Resume</h4>
+            </a>
+        </div>
+        <!--==============--gif- home page--=======================-->
+        <dotlottie-player src="https://lottie.host/ad066b8a-e539-4551-8f3f-c60b328c451e/1aRoPm4yxv.json"
+            background="transparent" speed="1.5"
+            style="width: 500px; height: 630px; animation: slideleft 1s ease forwards; opacity: 0; transition: .5s;"
+            direction="1" playMode="normal" loop autoplay>
+        </dotlottie-player>
+
+        </div>
+    </section>
+    <!---=========++++++++++++++++++=========about section======+++++++++++++++++++++++++++++==========-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!--===========about image============= -->
+                <div class="about-image">
+                    <img src="imaages/about img.webp">
+                </div>
+                <!--===========about text===============-->
+                <div class="text">
+                    <h1>About <span>Me</span></h1>
+                    <h2>HI!<br> I am a <span>Passionate Coder</span></h2>
+                    <p>
+                        myself khushi a Kind-hearted and good natured, she is one of the first characters Amaterasu
+                        meets on her journey,
+                        and is one of the first residents of the village to be openly kind to the white wolf and her
+                        companion Issun; often, if Amaterasu comes near her while she works in her rice paddy, she will
+                        stop and run forward to give Amaterasu a few scratches of affection. Kushi is also remarkably
+                        patient, willing to put up with Susano's antics; she is the only one not angered with him when
+                        he drinks all her sake and doesn't complain when he leaves her to carry the extraordinarily
+                        heavy sacred water barrel back to Kamiki from Agata Forest. Kushi also a person of strong faith,
+                        believing firmly in the gods. It is revealed after Orochi's defeat that she was one of the few
+                        who could see Amaterasu's divine markings almost from the beginning, after the sun goddess fixes
+                        her broken mill wheel.
+                    </p>
+                    <!-- Button to reveal content -->
+                    <button id="more-about-me-btn" class="btn-box" onclick="toggleMoreAboutMe()">More About Me</button>
+                    <!-- ========== More About Me Section ========== -->
+                    <div class="more-about-me">
+                        <!-- Tab Titles -->
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <!-- Tab Contents -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br><br>designing web/app interfaces</li>
+                                <li><span>Web development</span><br><br>web app development</li>
+                                <li><span>App development</span><br><br>building Android/ios apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Current</span><br><br>UI/UX design Training at ET Institute</li>
+                                <li><span>2020-2023</span><br><br>Team Lead at StarApp</li>
+                                <li><span>2019-2020</span><br><br>Front end coder at XYZ company </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Internship</span><br><br>at Yhill and Sunstone of web development </li>
+                                <li><span>College</span><br><br>B.Tech CS from SRMU</li>
+                                <li><span>School</span><br><br>12th from ISC Board with 82% from NCIC<br> <br>10th from
+                                    ICSE Board with 76.4% from NCIC</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                        <!--=============git hub button==========--->
+                        <a href="https://github.com/" class="btn-box">Git Hub</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===========Services-section==============-->
+    <div id="services">
+        <!--===========Services-section-container==============-->
+        <div class="service-container">
+            <!--===========Services-heading==============-->
+            <div class="heading">
+                <div class="heading-me">
+                    <h1>My</h1>
+                </div>
+                <div class="heading-service">
+                    <h1><span>Services</span></h1>
+                </div>
+            </div>
+            <!--===========Services-list==============-->
+            <div class="service-list">
+                <!-----------service-tab-1------------------->
+
+                <div>
+                    <i class='bx bx-code' style="margin-bottom: 20px;color: #00eeff; font-size: 30px;"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis architecto
+                        reprehenderit dicta magni accusamus eveniet impedit praesentium quia! Illo tempore at id
+                        dolorem exercitationem natus? In eum perferendis cupiditate?</p>
+                        <a href="" class="read">learn more...</a>
+                    
+                </div>
+                <!-----------service-tab-2------------------->
+                <div>
+                    <i class='bx bx-crop' style="color: #00eeff;margin-bottom: 20px; font-size: 30px;"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis architecto
+                        reprehenderit dicta magni accusamus eveniet impedit praesentium quia! Illo tempore at id
+                        dolorem exercitationem natus? In eum perferendis cupiditate?</p>
+                        <a href="" class="read">learn more...</a>
+                    
+
+                </div>
+                <!-----------service-tab-3------------------->
+
+                <div>
+                    <i class='bx bxl-apple' style="margin-bottom: 20px;color: #00eeff; font-size: 30px;"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis architecto
+                        reprehenderit dicta magni accusamus eveniet impedit praesentium quia! Illo tempore at id
+                        dolorem exercitationem natus? In eum perferendis cupiditate?</p>
+                        <a href="" class="read">learn more...</a>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
