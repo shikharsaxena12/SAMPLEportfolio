@@ -271,7 +271,7 @@ body {
     transition: .5s;
     animation: slidetop 1s ease forwards;
     opacity: 0;
-    box-shadow: 0px 3px 10px #011221;
+    box-shadow: 0px 0px 50px #0ef;
     
 
 }
