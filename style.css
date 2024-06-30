@@ -416,18 +416,19 @@ body {
 }
 
 .service-list div {
-    background: rgb(0, 10, 10);
-    padding: 50px;
+    background: rgb(1, 11, 15);
+    padding: 30px;
     font-size: 20px;
     font-weight: 300;
-    border-right: 10px;
     border-radius: 20px;
-}
+    transition: background 0.5s,transform 0.5s;
+  }
+
 
 .service-list div:hover {
-    background-color: #3fb80f;
+    background-color: rgb(1, 12, 20);
     transform: translateY(-10px);
-}
+box-shadow:0 0 10px #0ef;}
 
 .read {
     text-decoration: none;
