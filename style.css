@@ -422,6 +422,7 @@ body {
     font-weight: 300;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
+    
 }
 
 
@@ -436,7 +437,7 @@ body {
 }
 
 .service-list div:hover .read{
-    display: inline-block;
+    display: inline-flex;
     color: #000000;
     text-decoration: none;
     background: #0ef;
@@ -447,8 +448,4 @@ body {
     transition: 0.5s;
     border-radius: 40px;
     
-}
-.service-list div:hover .read:hover{
-    box-shadow:0 0 10px #0ef;
-    transition: 0.5s;
 }
