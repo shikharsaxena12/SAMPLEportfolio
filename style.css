@@ -422,21 +422,21 @@ body {
     font-weight: 300;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    
+
 }
 
 
 .service-list div:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 10px #0ef;
-    
+
 }
 
-.read{
-    display: none;
+.read {
+    opacity: 0;
 }
 
-.service-list div:hover .read{
+.service-list div:hover .read {
     display: inline-flex;
     color: #000000;
     text-decoration: none;
@@ -447,5 +447,6 @@ body {
     font-size: 16px;
     transition: 0.5s;
     border-radius: 40px;
-    
+    opacity: 1;
+    box-shadow: 0 0 10px #0ef;
 }
