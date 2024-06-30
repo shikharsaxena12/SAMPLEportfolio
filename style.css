@@ -450,4 +450,5 @@ body {
 }
 .service-list div:hover .read:hover{
     box-shadow:0 0 10px #e1d9d9;
+    transition: 0.5s;
 }
