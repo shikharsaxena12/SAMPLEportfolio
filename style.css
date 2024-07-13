@@ -397,6 +397,7 @@ body {
     animation-delay: 1s;
     opacity: 0;
 }
+/*---------------service heading --------*/
 
 .heading-service {
     color: #0ef;
@@ -406,6 +407,7 @@ body {
     opacity: 0;
 
 }
+/*---------------service's list --------*/
 
 .service-list {
     display: grid;
@@ -414,6 +416,7 @@ body {
     margin: 50px 20px;
 
 }
+/*---------------each services common style--------*/
 
 .service-list div {
     background: rgb(1, 11, 15);
