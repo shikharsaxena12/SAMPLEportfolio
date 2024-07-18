@@ -584,7 +584,7 @@ section {
     height: 170px;
     margin-bottom: 10px;
     position: relative;
-
+    
 }
 
 .radials .radial-bar svg {
@@ -600,7 +600,7 @@ section {
 
 .radials .radial-bar .progress-bar{
     stroke-width: 10;
-    stop-color: #000000;
+    stroke: #000000;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -611,11 +611,12 @@ section {
 
 .path {
     stroke-width: 10;
-    stroke: #0ef;
+    stroke:#0ef;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
+    
 }
 
 .path-1 {
@@ -649,20 +650,22 @@ section {
     font-weight: 500;
     animation: showtext 0.5s 1s linear forwards;
     opacity: 0;
+    color: rgb(0, 255, 229);
 }
 
 .radial-bar .text {
     width: 100%;
     position: absolute;
     text-align: center;
-    left: 50%;
-    bottom: -5px;
+    left: 30%;
+    bottom: -8px;
     transform: translateX(-50px);
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     animation: showtext 0.5s 1s linear forwards;
-
     opacity: 0;
+    color: rgb(0, 255, 234);
+
 }
 
 
