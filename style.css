@@ -189,58 +189,7 @@ body {
 
 }
 
-/*-----======================aminmations--==========================--*/
-@keyframes slideRight {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
 
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-
-@keyframes slidetop {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
-
-
-
-@keyframes slideleft {
-    0% {
-        transform: translateX(100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-
-@keyframes slidebottom {
-    0% {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
 
 /*-----=================================================---ABOUT-Section------==============================================================================----*/
 
@@ -536,11 +485,6 @@ section {
     transform-origin: left;
 }
 
-@keyframes animate {
-    100% {
-        transform: scaleX(1);
-    }
-}
 
 .Technical-bars .bar .progress-line span {
     height: 100%;
@@ -621,12 +565,7 @@ section {
 
 }
 
-@keyframes showtext {
-    100% {
-        opacity: 1;
-    }
 
-}
 
 /*---------------skillbox2-----------------*/
 .skillbox-2 {
@@ -675,11 +614,6 @@ section {
     animation: animate-bar 1s linear forwards;
 }
 
-@keyframes animate-bar {
-    100% {
-        stroke-dashoffset: -1;
-    }
-}
 
 .path {
     stroke-width: 10;
@@ -710,6 +644,232 @@ section {
     animation: animate-path5 1s 1s linear forwards;
 }
 
+
+
+.radial-bar .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.radial-bar .text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----==============================================--aminmations-sections--=================================================================================--*/
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slidetop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slidebottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
 @keyframes animate-path1 {
     100% {
         stroke-dashoffset: 70;
@@ -744,28 +904,20 @@ section {
     }
 
 }
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+}
+@keyframes showtext {
+    100% {
+        opacity: 1;
+    }
 
-.radial-bar .percentage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showtext 0.5s 1s linear forwards;
-    opacity: 0;
 }
 
-.radial-bar .text {
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    bottom: -5px;
-    transform: translateX(-50px);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showtext 0.5s 1s linear forwards;
-
-    opacity: 0;
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
 }
