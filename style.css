@@ -428,10 +428,11 @@ section {
 }
 
 .skillbox-1 {
-    width: 400px;
+    width: 600px;
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
+    margin-bottom: 30px;
 
 }
 
@@ -567,14 +568,7 @@ section {
 
 
 
-/*---------------skillbox2-----------------*/
-.skillbox-2 {
-    width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
-
-}
+/*---------------skillbox-1 id=2-----------------*/
 
 .radials {
     display: flex;
