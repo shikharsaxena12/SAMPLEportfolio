@@ -453,7 +453,7 @@ body {
     opacity: 1;
     box-shadow: 0 0 10px #0ef;
 }
-/*--======================================----SKILLS-section---=====================================================*/
+/*--=====================================================----SKILLS-section---==========================================================================*/
 .heading-skill{
     margin-left: 39%;
     font-size: 30px;
@@ -466,4 +466,26 @@ body {
 }
     .heading-skill span{
         color: #0ef;  
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skillbox-1{
+        width:600px ;
+        height: 500px;
+        padding: 75px 90px;
+        margin-left: 120px;
+
+    }
+    .skillbox-2{
+        width:600px ;
+        height: 500px;
+        padding: 75px 90px;
+        margin-left: 120px;
+
+    }
+    .heading1{
+        text-align: center;
+        text-decoration: underline;
     }
