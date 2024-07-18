@@ -453,3 +453,17 @@ body {
     opacity: 1;
     box-shadow: 0 0 10px #0ef;
 }
+/*--======================================----SKILLS-section---=====================================================*/
+.heading-skill{
+    margin-left: 39%;
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-flex;
+    margin-right: 10px;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+    .heading-skill span{
+        color: #0ef;  
+    }
