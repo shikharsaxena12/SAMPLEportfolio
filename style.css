@@ -431,7 +431,6 @@ section {
     width: 600px;
     height: 500px;
     padding: 75px 90px;
-    margin-left: 120px;
     margin-bottom: 30px;
 
 }
@@ -439,9 +438,11 @@ section {
 .heading1 {
     text-align: center;
     text-decoration: underline;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 2px;
     text-underline-offset: 10px;
     margin-bottom: 50px;
+    text-decoration-color: rgb(9, 198, 212);
+
 }
 
 .bar {
@@ -584,7 +585,7 @@ section {
     height: 170px;
     margin-bottom: 10px;
     position: relative;
-    
+
 }
 
 .radials .radial-bar svg {
@@ -598,7 +599,7 @@ section {
 
 }
 
-.radials .radial-bar .progress-bar{
+.radials .radial-bar .progress-bar {
     stroke-width: 10;
     stroke: #000000;
     fill: transparent;
@@ -611,12 +612,12 @@ section {
 
 .path {
     stroke-width: 10;
-    stroke:#0ef;
+    stroke: #0ef;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
-    
+
 }
 
 .path-1 {
@@ -867,6 +868,7 @@ section {
         opacity: 1;
     }
 }
+
 @keyframes animate-path1 {
     100% {
         stroke-dashoffset: 70;
@@ -901,11 +903,13 @@ section {
     }
 
 }
+
 @keyframes animate-bar {
     100% {
         stroke-dashoffset: -1;
     }
 }
+
 @keyframes showtext {
     100% {
         opacity: 1;
