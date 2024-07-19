@@ -188,7 +188,111 @@ body {
     box-shadow: 0px 0px 15px cyan;
 
 }
+  /*-----==============================================--aminmations-sections--=================================================================================--*/
+  @keyframes slidetop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
 
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slidebottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes animate-path1 {
+    100% {
+        stroke-dashoffset: 70;
+    }
+
+}
+
+@keyframes animate-path2 {
+    100% {
+        stroke-dashoffset: 60;
+    }
+
+}
+
+@keyframes animate-path3 {
+    100% {
+        stroke-dashoffset: 125;
+    }
+
+}
+
+@keyframes animate-path4 {
+    100% {
+        stroke-dashoffset: 85;
+    }
+
+}
+
+@keyframes animate-path5 {
+    100% {
+        stroke-dashoffset: 75;
+    }
+
+}
+
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+}
+
+@keyframes showtext {
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
 
 
 /*-----=================================================---ABOUT-Section------==============================================================================----*/
@@ -425,13 +529,15 @@ body {
 section {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .skillbox-1 {
     width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-bottom: 30px;
+    height: 700px;
+    padding: 50px 70px;
+    margin-left: 20px;
+    margin-top: 20px;
 
 }
 
@@ -668,257 +774,78 @@ section {
     color: rgb(0, 255, 234);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-----==============================================--aminmations-sections--=================================================================================--*/
-@keyframes slideRight {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
+/*--=========================================================---portfolio-section---==========================================================================-------*/
+.head{
+    align-items: center;
+    margin-left: 40%;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 4rem;
 }
-
-
-@keyframes slidetop {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+.head span{
+    color: #0ef;
 }
-
-
-
-@keyframes slideleft {
-    0% {
-        transform: translateX(100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-
-@keyframes slidebottom {
-    0% {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes animate-path1 {
-    100% {
-        stroke-dashoffset: 70;
-    }
+.port-box img{
+width: 100%;
+height: 20rem;
+border-radius: 20px;
+transition: .5s ease;
 
 }
-
-@keyframes animate-path2 {
-    100% {
-        stroke-dashoffset: 60;
-    }
-
+.port-box:hover img{
+    transform: scale(1.1);
 }
-
-@keyframes animate-path3 {
-    100% {
-        stroke-dashoffset: 125;
-    }
-
+.port-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2.5rem;
+    margin: 50px 20px;
 }
-
-@keyframes animate-path4 {
-    100% {
-        stroke-dashoffset: 85;
-    }
-
+  .port-box{
+    position: relative;
+    border-radius: 4rem;
+    box-shadow:0 0 1rem #000000;
+    display: flex;
+    overflow: hidden;
 }
-
-@keyframes animate-path5 {
-    100% {
-        stroke-dashoffset: 75;
-    }
-
+.port-box .layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,-1),#012543);
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+padding: 0 4rem;
+transform: translateY(100%);
+transition: .5s ease;
 }
-
-@keyframes animate-bar {
-    100% {
-        stroke-dashoffset: -1;
-    }
+.port-box:hover .layer{
+    transform: translateY(0);
 }
-
-@keyframes showtext {
-    100% {
-        opacity: 1;
-    }
-
+.layer p{
+    margin: .4rem  0 1rem;
+    font-size:.8rem;
+    
 }
-
-@keyframes animate {
-    100% {
-        transform: scaleX(1);
-    }
+.layer h4{
+    margin-top: 7.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: #011221;
+    border-radius: 50%;
+    box-shadow:0px 0px 10px #000000;
+    color:#0ef;
 }
