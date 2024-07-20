@@ -6,7 +6,14 @@ const typed = new Typed(".text", {
     backDelay: 1000,
     loop: true
 });
-
+/*------===================Greeting auto right============================-------*/
+const type = new Typed(".greeting", {
+    strings: [" <i  class='bx bxs-heart'></i>  Thank you for Visiting ! <i  class='bx bxs-heart'></i>"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
 /*----=========more about me tabs==========------*/
 const tablinks = document.getElementsByClassName("tab-links");
 const tabcontents = document.getElementsByClassName("tab-contents");

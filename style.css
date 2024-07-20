@@ -171,13 +171,13 @@ margin-right: 20px;
 
 .btn-box {
     align-items: center;
-    color: rgb(0, 7, 8);
+    color: #011221;
     display: inline-flex;
     border-radius: 40px;
     padding: 12px 28px;
     font-size: 16px;
     text-decoration: none;
-    border: 1px solid #0ef;
+    border: 2px solid #0ef;
     box-shadow: 0px 3px 10px #000000;
     margin-top: 20px;
     font-weight: 400;
@@ -192,6 +192,8 @@ margin-right: 20px;
 
 .btn-box:hover {
     box-shadow: 0px 0px 15px cyan;
+    background:#000000 ;
+    color: #0ef;
 
 }
   /*-----==============================================--aminmations-sections--=================================================================================--*/
@@ -864,6 +866,7 @@ transition: .5s ease;
     color:#0ef;
     text-decoration: none;
 }
+/*------=============--contact-section=========================================================================================--------*/
 .contact-left{
     flex-basis: 35%;
 }
@@ -888,7 +891,7 @@ transition: .5s ease;
     margin-bottom: 10px;
     margin-left: 20px ;
 }
-.contact-left a{
+.Download-btn{
     text-decoration: none;
     align-items: center;
     color: #011221;
@@ -896,7 +899,7 @@ transition: .5s ease;
     border-radius: 40px;
     padding: 12px 28px ;
     font-size: 16px;
-    border: 1px solid #0ef;
+    border: 2px solid #0ef;
     box-shadow: 0px 3px 10px #000000;
     margin-top: 20px;
     font-weight: 700;
@@ -907,6 +910,12 @@ transition: .5s ease;
     animation-delay: 0s;
     margin-left: 30px;
     margin-bottom: 20px;   
+}
+.Download-btn:hover{ 
+    box-shadow: 0px 0px 15px cyan;
+    background:#000000;
+    color: #0ef;
+    
 }
 .contact-right{
     flex-basis: 60%;
@@ -921,7 +930,7 @@ transition: .5s ease;
     border-radius: 40px;
     padding: 12px 28px ;
     font-size: 16px;
-    border: 1px solid #0ef;
+    border: 2px solid #0ef;
     box-shadow: 0px 3px 10px #000000;
     margin-top: 20px;
     font-weight: 700;
@@ -931,6 +940,13 @@ transition: .5s ease;
     animation: slideRight 1s ease forwards;
     animation-delay: 0s;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.btn-submit:hover{
+    box-shadow: 0px 0px 15px cyan;
+    background: #000000;
+    color: #0ef;
+
 }
 form input ,form textarea{
     width: 100%;
@@ -943,7 +959,7 @@ form input ,form textarea{
     font-size: 18px;
     border-radius: 10px;
     border: 1px solid #0ef;
-   
+   resize: none;
 }
 
 form input:hover{
@@ -960,15 +976,20 @@ form textarea::-webkit-scrollbar{
     font-weight: 400;
     font-size: 40px;
     width: 100%;
-    
     text-decoration:underline;
     text-decoration-color: #0ef;
 
 }
 .copyright{
-    background: #0ef;
-    color: #000000;
+    background:rgb(0, 0, 0);
+    color:#d71919;
+    text-decoration: underline;
     font-size: 20px;
     margin-top: 30px;
     text-align: center;
+    margin-top: 50px;
+    
+}
+.greeting i{
+    color: crimson;
 }
