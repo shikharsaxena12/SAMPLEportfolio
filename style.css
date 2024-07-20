@@ -864,3 +864,111 @@ transition: .5s ease;
     color:#0ef;
     text-decoration: none;
 }
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-left h1{
+    font-weight: 500;
+    font-size: 35px;
+}
+.contact-left h1 span{
+    color: #0ef;
+    font-size:45px ;
+    margin-right: 10px;
+}
+.contact-left p i{
+    font-size: 22px;
+    font-weight: 500;
+    color: #0ef;
+    margin: 0 20px;
+}
+.contact-left p{
+    margin-top: 30px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-left: 20px ;
+}
+.contact-left a{
+    text-decoration: none;
+    align-items: center;
+    color: #011221;
+    display: inline-flex;
+    border-radius: 40px;
+    padding: 12px 28px ;
+    font-size: 16px;
+    border: 1px solid #0ef;
+    box-shadow: 0px 3px 10px #000000;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: large;
+    background-color: #0ef;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 0s;
+    margin-left: 30px;
+    margin-bottom: 20px;   
+}
+.contact-right{
+    flex-basis: 60%;
+    padding: 70px;
+    margin-right: 20px;
+}
+.btn-submit{ 
+    text-decoration: none;
+    align-items: center;
+    color: #011221;
+    display: inline-flex;
+    border-radius: 40px;
+    padding: 12px 28px ;
+    font-size: 16px;
+    border: 1px solid #0ef;
+    box-shadow: 0px 3px 10px #000000;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: large;
+    background-color: #0ef;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 0s;
+    margin-bottom: 20px;
+}
+form input ,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: transparent;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #0ef;
+   
+}
+
+form input:hover{
+    box-shadow:0 0 10px #0ef;
+}
+form textarea:hover{
+    box-shadow: 0 0 10px #0ef;
+}
+form textarea::-webkit-scrollbar{
+    display: none;
+}
+.greeting{
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    width: 100%;
+    
+    text-decoration:underline;
+    text-decoration-color: #0ef;
+
+}
+.copyright{
+    background: #0ef;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
