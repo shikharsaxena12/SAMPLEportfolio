@@ -12,8 +12,14 @@ body {
     background-color: #011221;
     background-size: cover;
     background-position: center;
+-ms-overflow-style: none;
 
-
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+html{
+    scrollbar-width: none;
 }
 
 /*----========================================================---HOME-section---========================================================---*/
@@ -63,11 +69,11 @@ body {
     text-decoration: none;
     font-weight: 500;
     transition: 2ms;
-    margin-left: 35px;
+    margin-left: 20px;
     animation: slidebottom .5s ease forwards;
     animation-delay: calc(.3s*var(--i));
     opacity: 0;
-
+margin-right: 20px;
 
 }
 
