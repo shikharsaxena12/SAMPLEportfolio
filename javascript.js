@@ -43,3 +43,4 @@ function toggleMoreAboutMe() {
         moreAboutMeButton.textContent = 'More About Me'; // Change button text
     }
 }
+// =======------Readmoreless button function--------=================================
