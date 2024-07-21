@@ -50,7 +50,7 @@ html{
     text-decoration: none;
     font-style: oblique;
     font-weight: 600;
-}
+ }
 
 .logo span {
     color: rgb(180, 13, 13);
@@ -94,6 +94,14 @@ margin-right: 20px;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
+}
+.text {
+  
+    font-weight: bold;
+}
+
+.typed-cursor {
+    display: none;
 }
 
 .home-content {
@@ -1003,4 +1011,7 @@ form textarea::-webkit-scrollbar{
 }
 .greeting i{
     color: crimson;
+}
+.type-cursor{
+    display: none;
 }
