@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'poppins', serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /*-----body----*/
 body {
     color: rgb(247, 245, 245);
@@ -1030,5 +1032,11 @@ form textarea::-webkit-scrollbar{
 }
 .type-cursor{
     display: none;
+}
+#msg{
+    
+    color: #d71919;
+    margin-top: -10px;
+    display: block;
 }
 /*------css for small screen-----*/
