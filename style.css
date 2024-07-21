@@ -167,11 +167,11 @@ margin-right: 20px;
     align-items: center;
     width: 40px;
     height: 40px;
-    background: transparent;
-    border: 1px solid#0ef;
+    background: #0ef;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 50%;
     font-size: 20px;
-    color: rgb(6, 215, 230);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     box-shadow: 0 3px 10px #000000;
     margin-right: 10px;
@@ -184,10 +184,10 @@ margin-right: 20px;
 }
 
 .home-sci a:hover {
-    color: #f9f6f6;
-    box-shadow: 0px 0px 20px #ece5e5;
-    border: 1px solid #e1d9d9;
-    background-color: #0ef;
+    background: #000000;
+    box-shadow: 0px 0px 20px #0ef;
+    border: 1px solid #0ef;
+    color: #0ef;
 
 }
 
@@ -1029,3 +1029,8 @@ form textarea::-webkit-scrollbar{
 .type-cursor{
     display: none;
 }
+/*------css for small screen-----*/
+@media only screen and (max-with:600px){
+
+}
+    
