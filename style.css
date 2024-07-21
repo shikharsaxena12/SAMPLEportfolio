@@ -492,7 +492,9 @@ margin-right: 20px;
     transition: background 0.5s, transform 0.5s;
 
 }
-
+.invisible{
+    display: none;
+}
 
 .service-list div:hover {
     transform: translateY(-10px);
