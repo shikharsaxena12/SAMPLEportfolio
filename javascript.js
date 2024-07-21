@@ -6,6 +6,24 @@ const typed = new Typed(".text", {
         backDelay: 1000,
         loop: true
     });
+    //video-control-----
+    document.addEventListener("DOMContentLoaded", function() {
+        const videoContainer = document.getElementById('video-container');
+        const videoIframe = document.getElementById('video-iframe');
+        const videoSrc = videoIframe.src;
+    
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    // Pause the video when the section is out of view
+                    videoIframe.src = '';
+                    videoIframe.src = videoSrc;
+                }
+            });
+        }, { threshold: 0 });
+    
+        observer.observe(videoContainer);
+    });
 /*------===================Greeting auto right============================-------*/
 const type = new Typed(".greeting", {
     strings: [" <i  class='bx bxs-heart'></i>  Thank you for Visiting ! <i  class='bx bxs-heart'></i>"],

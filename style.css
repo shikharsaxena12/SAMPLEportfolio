@@ -88,7 +88,7 @@ margin-right: 20px;
     position: relative;
     width: 100%;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -106,6 +106,21 @@ margin-right: 20px;
 
 .home-content {
     max-width: 600px;
+    flex-basis: 35%;
+
+}
+#video-container{
+    flex-basis: 50%;
+    border-radius: 10px;
+}
+#video-container iframe{
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow:0 0 8px;
+}
+#video-container iframe:hover{
+    border-radius: 10px;
+    box-shadow:0 0 20px #0ef;
 }
 
 .home-content h3 {
