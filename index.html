@@ -397,22 +397,6 @@
             Swaroop Saxena</div>
         <script src="javascript.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzTm7wnWuCUum7q80k_OH2vNa3ZXLx3X5SL1uRKIGBdUt2B8quYFOLSKdGBTdSlxvR_/exec'
-            const form = document.forms['submit-to-google-sheet']
-            const msg = document.getElementById("msg")
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => {msg.innerHTML="Thank You ! For Contacting Me<br>I Will Contact You Soon...."
-                setTimeout(function(){
-                    msg.innerHTML =""
-                },5000)
-                form.reset()
-            })
-                .catch(error => console.error('Error!', error.message))
-            })
-          </script>
 
 </body>
 
