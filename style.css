@@ -1040,3 +1040,72 @@ form textarea::-webkit-scrollbar{
     display: block;
 }
 /*------css for small screen-----*/
+nav .bx{
+    display: none;
+}
+@media only screen and (max-width:600px) {
+.home-content{
+    margin-top: 20px;
+}
+.home-content p{
+    font-size: 20px;
+
+}
+.row{
+    display: block;
+}
+.text{
+    margin: 20px 20px;
+}
+.service-container .heading{
+    margin-left: -4px;
+    padding: 10px;
+}
+.head{
+    margin: -1px;
+    padding: 10px;
+}
+.port-container{
+    display: block;
+}
+.port-box{
+    margin-bottom: 20px;
+}
+.layer{
+    font-size: 1px;
+}
+.heading-skill{
+    margin-left: 55px;
+}
+#video-container iframe{
+    width:350px;
+    height: 250px;
+}
+nav .bx{
+    display: block;
+    font-size: 30px;
+    margin-right: 65px;
+}
+nav ul{
+    background: #011221;
+    box-shadow: 0 0 10px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 200px;
+    height: 200vh;
+    padding-top: 60px;
+z-index: 2;
+    
+}
+nav ul a{
+    display: block;
+    margin: 25px;
+}
+nav ul .bx{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+}
