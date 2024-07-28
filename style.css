@@ -1043,7 +1043,7 @@ form textarea::-webkit-scrollbar{
 nav .bx{
     display: none;
 }
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:850px) {
 .home-content{
     margin-top: 20px;
 }
