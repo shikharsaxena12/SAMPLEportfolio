@@ -1086,16 +1086,19 @@ nav .bx{
     font-size: 30px;
     margin-right:10px;
 }
+.logo{
+    margin: 20px;
+}
 nav ul{
-    background: #011221;
-    box-shadow: 0 0 10px;
+    background: linear-gradient(rgba(6, 23, 48, 1),#000000);
+    box-shadow: 0 0 -10px;
     position: fixed;
     top: 0;
     right: -250px;
     width: 200px;
     height: 200vh;
     padding-top: 60px;
-z-index: 2;
+   z-index: 200;
     
 }
 nav ul a{
